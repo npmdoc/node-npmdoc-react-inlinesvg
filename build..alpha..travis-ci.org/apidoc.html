@@ -1,0 +1,805 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+    >react-inlinesvg (v0.5.5)</a>
+</h1>
+<h4>An SVG loader for React</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-inlinesvg">module react-inlinesvg</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.react-inlinesvg">
+            function <span class="apidocSignatureSpan"></span>react-inlinesvg
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.cacheGetRequests">
+            function <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes.cacheGetRequests
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.children">
+            function <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes.children
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.className">
+            function <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes.className
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.onError">
+            function <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes.onError
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-inlinesvg.</span>defaultProps</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-inlinesvg.</span>shouldComponentUpdate</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-inlinesvg.defaultProps">module react-inlinesvg.defaultProps</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">react-inlinesvg.defaultProps.</span>cacheGetRequests</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">react-inlinesvg.defaultProps.</span>uniquifyIDs</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.defaultProps.supportTest">
+            function <span class="apidocSignatureSpan">react-inlinesvg.defaultProps.</span>supportTest
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.defaultProps.wrapper">
+            function <span class="apidocSignatureSpan">react-inlinesvg.defaultProps.</span>wrapper
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-inlinesvg.propTypes">module react-inlinesvg.propTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.cacheGetRequests">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>cacheGetRequests
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.children">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>children
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.className">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>className
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.onError">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>onError
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.onLoad">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>onLoad
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.preloader">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>preloader
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.src">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>src
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.supportTest">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>supportTest
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.uniquifyIDs">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>uniquifyIDs
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.wrapper">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>wrapper
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-inlinesvg.propTypes.cacheGetRequests">module react-inlinesvg.propTypes.cacheGetRequests</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.cacheGetRequests.cacheGetRequests">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>cacheGetRequests
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.cacheGetRequests.isRequired">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.cacheGetRequests.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-inlinesvg.propTypes.children">module react-inlinesvg.propTypes.children</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.children.children">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>children
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.children.isRequired">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.children.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-inlinesvg.propTypes.className">module react-inlinesvg.propTypes.className</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.className.className">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>className
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.className.isRequired">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.className.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-inlinesvg.propTypes.onError">module react-inlinesvg.propTypes.onError</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.onError.onError">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>onError
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.propTypes.onError.isRequired">
+            function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.onError.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-inlinesvg.shouldComponentUpdate">module react-inlinesvg.shouldComponentUpdate</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.shouldComponentUpdate.shouldComponentUpdate">
+            function <span class="apidocSignatureSpan">react-inlinesvg.</span>shouldComponentUpdate
+            <span class="apidocSignatureSpan">(nextProps, nextState)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-inlinesvg.shouldComponentUpdate.shouldComponentUpdateContext">
+            function <span class="apidocSignatureSpan">react-inlinesvg.shouldComponentUpdate.</span>shouldComponentUpdateContext
+            <span class="apidocSignatureSpan">(nextProps, nextState, nextContext)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-inlinesvg.shouldComponentUpdate.</span>default</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-inlinesvg" id="apidoc.module.react-inlinesvg">module react-inlinesvg</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.react-inlinesvg" id="apidoc.element.react-inlinesvg.react-inlinesvg">
+        function <span class="apidocSignatureSpan"></span>react-inlinesvg
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function InlineSVG(props) {
+  _classCallCheck(this, InlineSVG);
+
+  var _this2 = _possibleConstructorReturn(this, (InlineSVG.__proto__ || Object.getPrototypeOf(InlineSVG)).call(this, props));
+
+  _this2.shouldComponentUpdate = _shouldComponentUpdate.shouldComponentUpdate;
+
+
+  _this2.state = {
+    status: Status.PENDING
+  };
+
+  _this2.handleLoad = _this2.handleLoad.bind(_this2);
+  _this2.isActive = false;
+  return _this2;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.cacheGetRequests" id="apidoc.element.react-inlinesvg.propTypes.cacheGetRequests">
+        function <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes.cacheGetRequests
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.cacheGetRequests = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.children" id="apidoc.element.react-inlinesvg.propTypes.children">
+        function <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes.children
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.children = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.className" id="apidoc.element.react-inlinesvg.propTypes.className">
+        function <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes.className
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.className = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.onError" id="apidoc.element.react-inlinesvg.propTypes.onError">
+        function <span class="apidocSignatureSpan">react-inlinesvg.</span>propTypes.onError
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.onError = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-inlinesvg.defaultProps" id="apidoc.module.react-inlinesvg.defaultProps">module react-inlinesvg.defaultProps</a></h1>
+
+
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.defaultProps.supportTest" id="apidoc.element.react-inlinesvg.defaultProps.supportTest">
+        function <span class="apidocSignatureSpan">react-inlinesvg.defaultProps.</span>supportTest
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">supportTest = function () {
+  if (f.called) return f.value
+  f.called = true
+  return f.value = fn.apply(this, arguments)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.defaultProps.wrapper" id="apidoc.element.react-inlinesvg.defaultProps.wrapper">
+        function <span class="apidocSignatureSpan">react-inlinesvg.defaultProps.</span>wrapper
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">wrapper = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-inlinesvg.propTypes" id="apidoc.module.react-inlinesvg.propTypes">module react-inlinesvg.propTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.cacheGetRequests" id="apidoc.element.react-inlinesvg.propTypes.cacheGetRequests">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>cacheGetRequests
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cacheGetRequests = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.children" id="apidoc.element.react-inlinesvg.propTypes.children">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>children
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">children = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.className" id="apidoc.element.react-inlinesvg.propTypes.className">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>className
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">className = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.onError" id="apidoc.element.react-inlinesvg.propTypes.onError">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>onError
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onError = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.onLoad" id="apidoc.element.react-inlinesvg.propTypes.onLoad">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>onLoad
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onLoad = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.preloader" id="apidoc.element.react-inlinesvg.propTypes.preloader">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>preloader
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">preloader = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.src" id="apidoc.element.react-inlinesvg.propTypes.src">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>src
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">src = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.supportTest" id="apidoc.element.react-inlinesvg.propTypes.supportTest">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>supportTest
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">supportTest = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.uniquifyIDs" id="apidoc.element.react-inlinesvg.propTypes.uniquifyIDs">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>uniquifyIDs
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">uniquifyIDs = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.wrapper" id="apidoc.element.react-inlinesvg.propTypes.wrapper">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>wrapper
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">wrapper = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-inlinesvg.propTypes.cacheGetRequests" id="apidoc.module.react-inlinesvg.propTypes.cacheGetRequests">module react-inlinesvg.propTypes.cacheGetRequests</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.cacheGetRequests.cacheGetRequests" id="apidoc.element.react-inlinesvg.propTypes.cacheGetRequests.cacheGetRequests">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>cacheGetRequests
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cacheGetRequests = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.cacheGetRequests.isRequired" id="apidoc.element.react-inlinesvg.propTypes.cacheGetRequests.isRequired">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.cacheGetRequests.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-inlinesvg.propTypes.children" id="apidoc.module.react-inlinesvg.propTypes.children">module react-inlinesvg.propTypes.children</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.children.children" id="apidoc.element.react-inlinesvg.propTypes.children.children">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>children
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">children = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.children.isRequired" id="apidoc.element.react-inlinesvg.propTypes.children.isRequired">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.children.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-inlinesvg.propTypes.className" id="apidoc.module.react-inlinesvg.propTypes.className">module react-inlinesvg.propTypes.className</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.className.className" id="apidoc.element.react-inlinesvg.propTypes.className.className">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>className
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">className = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.className.isRequired" id="apidoc.element.react-inlinesvg.propTypes.className.isRequired">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.className.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-inlinesvg.propTypes.onError" id="apidoc.module.react-inlinesvg.propTypes.onError">module react-inlinesvg.propTypes.onError</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.onError.onError" id="apidoc.element.react-inlinesvg.propTypes.onError.onError">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.</span>onError
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onError = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.propTypes.onError.isRequired" id="apidoc.element.react-inlinesvg.propTypes.onError.isRequired">
+        function <span class="apidocSignatureSpan">react-inlinesvg.propTypes.onError.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-inlinesvg.shouldComponentUpdate" id="apidoc.module.react-inlinesvg.shouldComponentUpdate">module react-inlinesvg.shouldComponentUpdate</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.shouldComponentUpdate.shouldComponentUpdate" id="apidoc.element.react-inlinesvg.shouldComponentUpdate.shouldComponentUpdate">
+        function <span class="apidocSignatureSpan">react-inlinesvg.</span>shouldComponentUpdate
+        <span class="apidocSignatureSpan">(nextProps, nextState)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function shouldComponentUpdate(nextProps, nextState) {
+  return !(0, _shallowEqual2.default)(this.props, nextProps) || !(0, _shallowEqual2.default)(this.state, nextState);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-inlinesvg.shouldComponentUpdate.shouldComponentUpdateContext" id="apidoc.element.react-inlinesvg.shouldComponentUpdate.shouldComponentUpdateContext">
+        function <span class="apidocSignatureSpan">react-inlinesvg.shouldComponentUpdate.</span>shouldComponentUpdateContext
+        <span class="apidocSignatureSpan">(nextProps, nextState, nextContext)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function shouldComponentUpdateContext(nextProps, nextState, nextContext) {
+  return !(0, _shallowEqual2.default)(this.props, nextProps) || !(0, _shallowEqual2.default)(this.state, nextState) || !(0, _shallowEqual2
+.default)(this.context, nextContext);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
